@@ -1,0 +1,35 @@
+.Counter {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(115, 207, 207);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(99, 0, 192, 0.2);
+  }
+
+  .Counter {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .declare {
+    color: rgb(18, 22, 22);
+    text-align: center;
+    font-size:30px;
+  }
+  
+  .Increment {
+    margin: 0 auto;
+    background-color: rgb(2, 112, 2);
+  }
+  
+  .Decrement {
+    background-color: red;
+  }
+button{
+    margin: 10px;
+}  
